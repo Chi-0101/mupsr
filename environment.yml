@@ -1,0 +1,9 @@
+name: mupsr-r1-b2-b1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.16
+  - sqlite=3.47.0
+  - pip
+  - pip:
+      - -r requirements.txt

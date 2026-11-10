@@ -1,0 +1,53 @@
+{
+  "hidden": 64,
+  "heads": 2,
+  "layers": 2,
+  "dropout": 0.1,
+  "position_buckets": 64,
+  "max_bucket_distance": 1048576,
+  "readout_dim": 16,
+  "stage1_epochs": 40,
+  "stage2_epochs": 40,
+  "patience": 6,
+  "lr": 0.001,
+  "base_lr_ratio": 0.1,
+  "grad_clip": 5.0,
+  "price_l2": 0.0001,
+  "category_l2": 0.0001,
+  "half_life_days": 5.0,
+  "center_momentum": 0.01,
+  "stage1_days_per_step": 2,
+  "user_block": 64,
+  "tokens_per_batch": 1024,
+  "market_refresh": 64,
+  "readout_chunk": 32,
+  "tile_width": 64,
+  "tile_chunk": 32,
+  "eval_batch": 64,
+  "evaluation": {
+    "ks": [
+      5,
+      10,
+      20
+    ],
+    "primary": "N@10"
+  },
+  "threads": 2,
+  "stage1_eval_every": 4,
+  "stage1_patience": 3,
+  "emb_lr_ratio": 1.0,
+  "warmup_steps": 500,
+  "lr_floor": 0.05,
+  "ema_decay": 0.999,
+  "repeat_cap": 128,
+  "count_buckets": 16,
+  "fe_init": true,
+  "use_recency": false,
+  "use_repeat": false,
+  "user_weight_alpha": 0.0,
+  "expected_protocol": {
+    "candidate_fingerprint": "d3cf4475612945979d03e51ef53f0b6ae2efa59ae09085a79f39958cbe05d1ac",
+    "valid": 58273,
+    "test": 56524
+  }
+}

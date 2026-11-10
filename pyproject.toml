@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mupsr"
+version = "1.0.0"
+description = "MUPSR: mental-accounting two-stage price-aware sequential recommendation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "numpy==1.26.4",
+    "torch==2.5.1",
+    "scipy==1.15.3",
+]
+
+[project.scripts]
+mupsr-train = "mupsr.train:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
