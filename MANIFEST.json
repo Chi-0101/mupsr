@@ -11,8 +11,8 @@
       "sha256": "84d4458ea79c5ac095b1b3f839c47efe85aa97e08eda6229551339b62f52da50"
     },
     "README.md": {
-      "bytes": 4872,
-      "sha256": "cc329d93c2a7219451214dab094680178e7c0aaaca19d53a664882f5f278ad7e"
+      "bytes": 3075,
+      "sha256": "a122a8a61a07dead88bdf2f07200f0134f380a4e7a053971edba7d63fd8f81dd"
     },
     "configs/ablation_recency_only.json": {
       "bytes": 1100,
